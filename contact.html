@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Yabatech Scrabble Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="bar wrap">
+    <a href="index.html" class="logo-mark">
+      <span class="tile-row">
+        <span class="tile">Y<span class="pts">4</span></span>
+        <span class="tile">S<span class="pts">1</span></span>
+        <span class="tile">C<span class="pts">3</span></span>
+      </span>
+      Yabatech Scrabble Club
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span></button>
+    <nav class="primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="results.html">Results & ratings</a>
+      <a href="news.html">News</a>
+      <a href="contact.html" class="current">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section style="padding-top:48px; padding-bottom:36px;">
+  <div class="wrap" style="max-width:760px;">
+    <span class="tag">GET IN TOUCH</span>
+    <h1 style="font-size:36px; margin:12px 0 16px;">Come play, or just say hello</h1>
+    <p style="color:var(--ink-soft); font-size:17px;">Have a question about the club, want to arrange an inter-club fixture, or just curious before your first meeting? Reach out.</p>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="wrap grid-2">
+    <div class="card" style="padding:28px;">
+      <form data-demo-form>
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="reason">Reason for contact</label>
+          <select id="reason" name="reason">
+            <option>General inquiry</option>
+            <option>Membership</option>
+            <option>Inter-club fixture</option>
+            <option>Press / sponsorship</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p class="form-status" style="margin-top:12px; font-size:13.5px; color:var(--blue);"></p>
+      </form>
+    </div>
+    <div>
+      <div class="card accent-green" style="margin-bottom:16px;">
+        <div class="k">Email</div>
+        <h3 style="font-size:17px;">yabatechscrabbleclub@example.com</h3>
+      </div>
+      <div class="card accent-gold" style="margin-bottom:16px;">
+        <div class="k">Visit us</div>
+        <h3 style="font-size:17px;">Room B14, Student Affairs Complex, YABATECH, Yaba, Lagos</h3>
+      </div>
+      <div class="card accent-blue">
+        <div class="k">Meeting times</div>
+        <h3 style="font-size:17px;">Tue & Thu 4–6:30 PM, Sat 2–5 PM</h3>
+        <a href="schedule.html">Full schedule →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="placeholder-block" style="min-height:220px;">[ venue map placeholder ]</div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="logo-mark" style="color:var(--paper);">
+          <span class="tile-row">
+            <span class="tile">Y<span class="pts">4</span></span>
+            <span class="tile">S<span class="pts">1</span></span>
+            <span class="tile">C<span class="pts">3</span></span>
+          </span>
+          Yabatech Scrabble Club
+        </div>
+        <p style="margin-top:10px; font-size:13.5px; max-width:280px;">A student- and community-run Scrabble club based at Yaba College of Technology, Lagos.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <div class="foot-links">
+          <a href="about.html">About</a>
+          <a href="schedule.html">Schedule</a>
+          <a href="results.html">Results & ratings</a>
+          <a href="news.html">News</a>
+        </div>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <div class="foot-links">
+          <a href="contact.html">Contact us</a>
+          <a href="https://lexiclock.app">Practice with LexiClock ↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Yabatech Scrabble Club</span>
+      <span>Draft site — content shown is placeholder pending club review</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
